@@ -8,7 +8,7 @@ const {
 } = require("../controllers/image-controller");
 const authMiddleware = require("../middleware/auth-middleware");
 
-const router = express.Router;
+const router = express.Router();
 
 router.post(
   "/upload",
